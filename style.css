@@ -1,0 +1,39 @@
+.nombre_clase {
+            color: #f02ba4;
+}
+.nombre_clase .titulo_1{
+    background-color: rgb(51, 39, 119);
+}
+.font_sizexl{
+    font-size: 2em;
+}
+.titulo_bienvenida:hover{
+    color:rgb(134, 26, 26);
+}
+.titulo_bienvenida::first-letter{
+    color: #413891;
+}
+p{
+    font-size: 3em;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --primary-color: #f02ba4;
+    --main-font:Arial, sans-serif;
+}
+.fuente_p{
+    font-family: var(--main-font);
+}
+.cajas  {
+    background-color: var(--primary-color);
+    border: solid 5px #86356b;
+    margin: 10px;
+    width: 300px;
+}
+div{
+    display:inline-block;
+    height: 100px;
+    width:150px;
+}
